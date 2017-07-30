@@ -7,7 +7,8 @@ interface Drivable {}, with start(), drive() and getPosition()
 class Car implements Drivable {}
 
 ## Solution
-car.ts file contains the TypeScript code that implements the required Interfaces and the Car class
+car.ts file contains the TypeScript code that implements the required Interfaces and the Car class.
+
 Following screenshot file shows the running output
 1. Screenshot_output.PNG
 
