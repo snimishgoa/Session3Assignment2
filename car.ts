@@ -1,13 +1,5 @@
-interface CarPosition{
-    latitude: number;
-    longitude: number;
-}
-
-interface Drivable {
-    start(): void;
-    drive(): void;
-    getPosition(): CarPosition;
-}
+import {Drivable} from "./drivable"
+import {CarPosition} from "./car-position"
 
 class Car implements Drivable{
     
